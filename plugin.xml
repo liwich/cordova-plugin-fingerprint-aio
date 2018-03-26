@@ -11,7 +11,7 @@
     <clobbers target="Fingerprint"/>
   </js-module>
 
-  
+
 
   <!-- ios -->
   <platform name="ios">
@@ -32,7 +32,7 @@
 
   <!-- android -->
   <platform name="android">
-    <config-file target="res/xml/config.xml" parent="/*">
+    <config-file target="app/src/main/res/xml/config.xml" parent="/*">
       <feature name="Fingerprint">
         <param name="android-package" value="de.niklasmerz.cordova.fingerprint.Fingerprint"/>
       </feature>
